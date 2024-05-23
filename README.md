@@ -17,5 +17,9 @@ JavaScript: Programming language for adding interactivity and functionality to t
 Vanta.js: Library for creating dynamic backgrounds and visual effects.
 Three.js: Library for creating and displaying 3D computer graphics in a web browser.
 RapidAPI: API platform used for accessing the summarization model.
-![Screenshot (485)](https://github.com/Swati-in/SummaryGPT/assets/155288849/8142796a-786b-4e59-b412-1f008740bad9)
+
+
 ![Screenshot (484)](https://github.com/Swati-in/SummaryGPT/assets/155288849/b56e0669-6d90-4473-af1d-d7bfdeefc90d)
+
+
+![Screenshot (485)](https://github.com/Swati-in/SummaryGPT/assets/155288849/8142796a-786b-4e59-b412-1f008740bad9)
