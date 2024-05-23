@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Summary</title>
+    <link rel="stylesheet" href="/summary.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="/index.js"></script>
+  </head>
+  <body id="back">
+    <div id="scroll">
+      <div id="content">
+        <h2 id="title-text">Get your Summary Here</h2>
+        <div class="info-text" style="text-align: left;">Enter Your Text:</div>
+      </div>
+      <div class="container">
+        <div class="text-enter">
+          <textarea
+            name="text"
+            id="text"
+            cols="54"
+            rows="10"
+            placeholder="Enter your text here"
+          ></textarea>
+        </div>
+        <div class="summary-container">
+          <div class="info">Your Summary:</div>
+          <div class="summary-text" contenteditable="false" spellcheck="false" id="summary"></div>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn-container" onclick="getSummary()">Summarize</button>
+      </div>
+    </div>
+  </body>
+</html>
