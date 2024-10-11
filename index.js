@@ -12,7 +12,7 @@ try{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-rapidapi-key': '2c3c507ac6mshd984bd22bf80508p11d4f5jsn91b0dccdfcfa',
+                'x-rapidapi-key': '$API_KEY',
                 'x-rapidapi-host': 'tldrthis.p.rapidapi.com'
             },
             body: JSON.stringify(requestBody)
